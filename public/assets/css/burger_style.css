@@ -1,0 +1,59 @@
+/*Changing the background color*/
+body {
+	background-image: url("burger.jpg");
+}
+
+/*Formatting the burger img*/
+#burger-img {
+	max-width: 200px;
+	margin-top: 20px;
+}
+
+.jumbotron {
+	padding: 2rem 1rem;
+	color: whitesmoke;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  background: #1a2a6c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+}
+ 
+.hd1{
+ 
+    color:#fff;
+ 
+}
+
+
+.h1{
+	color: antiquewhite;
+}
+/*Applying Google fonts*/
+#burger-h {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+}
+
+.burger-text {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.burger-btn {
+	font-family: 'Public Sans', sans-serif;
+}
+
+
+/*Muting the devoured burgers*/
+#devoured-text {
+	color: #98978b;
+	background-color: #f8f5f0
+}
+
+
+/*Formatting the divs holding burger lists*/
+.uneaten-list, .eaten-list {
+	max-height: 300px;
+	overflow-y:auto;
+}
